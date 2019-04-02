@@ -1,0 +1,18 @@
+<html lang="en">
+  <head>
+    <title>Length Conversion</title>
+  </head>
+  <body>
+    <form action={% url "length:convert" %} method="get">
+      <div>
+        {{ form.input_unit }}
+        {{ form.input_value }}
+      </div>
+      <div>
+        {{ form.output_unit }}
+        {{ form.output_value }}
+      </div>
+      <input type="submit" value="Convert"/>
+   </form>
+  </body>
+</html>
