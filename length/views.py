@@ -4,11 +4,13 @@ from length.forms import LengthConverterForm
 
 convert_to_metre = {
     "centimetre": 0.01,
-    "metre": 1.0
+    "metre": 1.0,
+    "mile": 1609.34
 }
 convert_from_metre = {
     "centimetre": 100,
-    "metre": 1.0
+    "metre": 1.0,
+    "mile": 0.000621371
 }
 
 # Create your views here.
