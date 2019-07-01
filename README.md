@@ -34,3 +34,4 @@ Destroying test database for alias 'default'...
 ```
 
 4. Access the length measurement converter via [http://127.0.0.1:8000/length/convert](http://127.0.0.1:8000/length/convert)
+5. Access the storage converter via [http://127.0.0.1:8000/storage/convert](http://127.0.0.1:8000/storage/convert)
